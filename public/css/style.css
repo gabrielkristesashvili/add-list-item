@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #044f48, #2a7561);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+body #head-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+body #head-container h2 {
+  color: #f1f1f1;
+  font-weight: bold;
+}
+body .box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 90%;
+}
+body .box .center {
+  width: 1000px;
+  background-color: aliceblue;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  padding-bottom: 0;
+}
+body .box .center #add-container {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .box .center #add-container input {
+  padding: 1rem;
+  width: 500px;
+  outline: none;
+  border-radius: 5px;
+  border: 0;
+  background-color: #2a7561;
+  color: #f1f1f1;
+  transition: all 0.3s ease-in-out;
+}
+body .box .center #add-container input:hover {
+  opacity: 85%;
+  background-color: #044f48;
+  color: #f1f1f1;
+}
+body .box .center #add-container input:focus {
+  outline: 1px solid #2a7561;
+  background-color: transparent;
+  color: #044f48;
+}
+body .box .center #add-container button {
+  padding: 1rem 1.5rem;
+  margin: 0 10px;
+  background: transparent;
+  border-radius: 5px;
+  color: #044f48;
+  border: 0;
+  outline: 1px solid #2a7561;
+  transition: all 0.3s;
+}
+body .box .center #add-container button:hover {
+  opacity: 85%;
+  background-color: #2a7561;
+  color: #f1f1f1;
+}
+body .box .center #places-container {
+  padding: 0 1rem;
+}
+body .box .center #places-container .item {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background: #2a7561;
+  color: #f1f1f1;
+  margin: 5px;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+body .box .center #places-container .item:hover {
+  background: transparent;
+  outline: 1px solid #2a7561;
+  color: #044f48;
+  margin: 5px 0;
+  box-shadow: 0px 7px 15px 0.5px rgba(0, 0, 0, 0.42);
+  padding: 1rem 0.7rem;
+}
+body .box .center #places-container .item .remove {
+  color: red;
+  cursor: pointer;
+}
+body .box .center #places-container .item .remove:hover {
+  opacity: 99%;
+}
+body .box .center #button-container {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .box .center #button-container button {
+  padding: 1rem 2rem;
+  margin: 0 10px;
+  background: transparent;
+  border-radius: 5px;
+  color: #044f48;
+  border: 0;
+  transition: all 0.3s;
+  outline: 1px solid #2a7561;
+}
+body .box .center #button-container button:hover {
+  opacity: 85%;
+  background-color: #2a7561;
+  color: #f1f1f1;
+}/*# sourceMappingURL=style.css.map */
